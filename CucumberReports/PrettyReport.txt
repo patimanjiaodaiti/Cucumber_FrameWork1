@@ -1,0 +1,24 @@
+@Regression @User2
+Feature: Testing search
+
+  @Google
+  Scenario Template: Google search [90m# Features\Search.feature:5[0m
+    [36mWhen go to 'https://www.google.com' website[0m
+    [36mThen Enter '<Products>' in search box[0m
+
+    Examples: 
+
+  @Regression @User2 @Google
+  Scenario Template: Google search              [90m# Features\Search.feature:12[0m
+    [32mWhen [0m[32mgo to [0m[32m[1m'https://www.google.com'[0m[32m website[0m [90m# SearchSteps.go_to_website(String)[0m
+    [32mThen [0m[32mEnter [0m[32m[1m'apple'[0m[32m in search box[0m            [90m# SearchSteps.enter_in_search_box(String)[0m
+
+  @Regression @User2 @Google
+  Scenario Template: Google search              [90m# Features\Search.feature:13[0m
+    [32mWhen [0m[32mgo to [0m[32m[1m'https://www.google.com'[0m[32m website[0m [90m# SearchSteps.go_to_website(String)[0m
+    [32mThen [0m[32mEnter [0m[32m[1m'macBook'[0m[32m in search box[0m          [90m# SearchSteps.enter_in_search_box(String)[0m
+
+  @Regression @User2 @Google
+  Scenario Template: Google search              [90m# Features\Search.feature:14[0m
+    [32mWhen [0m[32mgo to [0m[32m[1m'https://www.google.com'[0m[32m website[0m [90m# SearchSteps.go_to_website(String)[0m
+    [32mThen [0m[32mEnter [0m[32m[1m'iphone'[0m[32m in search box[0m           [90m# SearchSteps.enter_in_search_box(String)[0m

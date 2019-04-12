@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="54.836497">
+<testcase classname="Testing search" name="Google search" time="30.869151">
+<system-out><![CDATA[When go to 'https://www.google.com' website.................................passed
+Then Enter 'apple' in search box............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing search" name="Google search 2" time="12.340078">
+<system-out><![CDATA[When go to 'https://www.google.com' website.................................passed
+Then Enter 'macBook' in search box..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing search" name="Google search 3" time="11.627268">
+<system-out><![CDATA[When go to 'https://www.google.com' website.................................passed
+Then Enter 'iphone' in search box...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

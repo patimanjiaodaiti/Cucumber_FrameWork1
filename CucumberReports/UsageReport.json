@@ -1,0 +1,72 @@
+[
+  {
+    "source": "go to {string} website",
+    "steps": [
+      {
+        "name": "go to \u0027https://www.google.com\u0027 website",
+        "aggregatedDurations": {
+          "average": 4.051819593,
+          "median": 3.646788096
+        },
+        "durations": [
+          {
+            "duration": 4.880455652,
+            "location": "Features\\Search.feature:6"
+          },
+          {
+            "duration": 3.628215033,
+            "location": "Features\\Search.feature:6"
+          },
+          {
+            "duration": 3.646788096,
+            "location": "Features\\Search.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Enter {string} in search box",
+    "steps": [
+      {
+        "name": "Enter \u0027apple\u0027 in search box",
+        "aggregatedDurations": {
+          "average": 5.596135666,
+          "median": 5.596135666
+        },
+        "durations": [
+          {
+            "duration": 5.596135666,
+            "location": "Features\\Search.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "Enter \u0027macBook\u0027 in search box",
+        "aggregatedDurations": {
+          "average": 3.06621802,
+          "median": 3.06621802
+        },
+        "durations": [
+          {
+            "duration": 3.06621802,
+            "location": "Features\\Search.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "Enter \u0027iphone\u0027 in search box",
+        "aggregatedDurations": {
+          "average": 2.277015516,
+          "median": 2.277015516
+        },
+        "durations": [
+          {
+            "duration": 2.277015516,
+            "location": "Features\\Search.feature:7"
+          }
+        ]
+      }
+    ]
+  }
+]
